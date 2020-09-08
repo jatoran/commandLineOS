@@ -18,6 +18,7 @@ namespace JimmyShaker {
             OperatingSystem OS = new OperatingSystem();
 
             while (OS.running) {
+                //gets input
                 OS.getInput();
             }
         }
