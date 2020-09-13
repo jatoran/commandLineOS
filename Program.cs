@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JimmyShaker {
+namespace commandLineOS {
     class OperatingSystem {
         public bool running = true;
 
@@ -14,7 +14,7 @@ namespace JimmyShaker {
     };
 
     class Program {
-        static void Main(string[] args) { 
+        static void Main(string[] args) {
             OperatingSystem OS = new OperatingSystem();
 
             while (OS.running) {

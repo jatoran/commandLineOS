@@ -1,0 +1,13 @@
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.exe
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.deps.json
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.runtimeconfig.json
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.runtimeconfig.dev.json
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.dll
+G:\Google Drive\[[Projects\GitHub\commandLineOS\bin\Debug\netcoreapp3.1\commandLineOS.pdb
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.csprojAssemblyReference.cache
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.AssemblyInfoInputs.cache
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.AssemblyInfo.cs
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.csproj.CoreCompileInputs.cache
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.dll
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.pdb
+G:\Google Drive\[[Projects\GitHub\commandLineOS\obj\Debug\netcoreapp3.1\commandLineOS.genruntimeconfig.cache
