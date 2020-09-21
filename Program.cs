@@ -19,6 +19,7 @@ namespace commandLineOS {
 
             while (OS.running) {
                 //gets input
+                //gayly
                 OS.getInput();
             }
         }
