@@ -60,7 +60,6 @@ static const int consoleBackground = 26; //26 = blue
 class File;
 class Folder;
 class Command;
-class Program;
 class OperatingSystem;
 
 class Command {
