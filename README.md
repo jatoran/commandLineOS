@@ -5,6 +5,13 @@ Organized by 1 class per file
 
 To Do:
 	get it so we can actually type things that change the state of the screen
+	parse the int for lower case letters, and digits 0-9, and space
+
+    convert to the integer value of the ascii value of the char
+    then update screen to put taht character where the cursor is
+
+    update screen 10 times a second
+    next time david codes
 
 
 Questions:

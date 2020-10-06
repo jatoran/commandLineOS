@@ -11,8 +11,14 @@ public class OperatingSystem {
     public char[,] screen = new char[10, 10];
 
     public void getInput() {
-        ConsoleKeyInfo idiot = Console.ReadKey(true);
-        Console.WriteLine(idiot.GetHashCode());
+        ConsoleKeyInfo inputKey = Console.ReadKey(true);
+        int asciiKey = (int)inputKey.KeyChar;
+        Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
+        //ReadKey does not return modifier keys (alt,shift,ctrl)
+
+        
+        //Console.SetCursorPosition(1, 0);
+        //Console.Write(inputKey.KeyChar);
     }
 
     public void printScreen() {
