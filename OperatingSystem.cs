@@ -13,12 +13,12 @@ public class OperatingSystem {
     public void getInput() {
         ConsoleKeyInfo inputKey = Console.ReadKey(true);
         int asciiKey = (int)inputKey.KeyChar;
-        Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
+        //Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
         //ReadKey does not return modifier keys (alt,shift,ctrl)
 
         
-        //Console.SetCursorPosition(1, 0);
-        //Console.Write(inputKey.KeyChar);
+        Console.SetCursorPosition(1, 0);
+        Console.Write(inputKey.KeyChar);
     }
 
     public void printScreen() {
