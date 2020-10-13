@@ -16,10 +16,16 @@ public class OperatingSystem {
         //Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
         //ReadKey does not return modifier keys (alt,shift,ctrl)
 
+<<<<<<< HEAD
         Console.SetCursorPosition(cursorCol, cursorRow);
         Console.Write(inputKey.KeyChar);
 
         cursorCol++;
+=======
+        
+        Console.SetCursorPosition(1, 0);
+        Console.Write(inputKey.KeyChar);
+>>>>>>> 67da67755e36865b12dae7d0f7afd737f3ba5c75
     }
 
     public void printScreen() {
