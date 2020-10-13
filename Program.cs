@@ -12,7 +12,7 @@ class Program {
         while (OS.running) {
             OS.getInput();
             OS.printScreen();
-            //System.Threading.Thread.Sleep(50);
+            System.Threading.Thread.Sleep(100);
         }
     }
 }
