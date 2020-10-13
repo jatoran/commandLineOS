@@ -8,20 +8,22 @@ public class OperatingSystem {
     public int cursorCol;
     int displayHeight;
     int displayWidth;
-    public char[,] screen = new char[10, 10];
+    public char[,] screen;
 
     public void getInput() {
         ConsoleKeyInfo inputKey = Console.ReadKey(true);
         int asciiKey = (int)inputKey.KeyChar;
-        Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
+        //Console.WriteLine("Char Entered: {0}, ASCII Code: {1}", inputKey.KeyChar, asciiKey);
         //ReadKey does not return modifier keys (alt,shift,ctrl)
 
-        
-        //Console.SetCursorPosition(1, 0);
-        //Console.Write(inputKey.KeyChar);
+        Console.SetCursorPosition(cursorCol, cursorRow);
+        Console.Write(inputKey.KeyChar);
+
+        cursorCol++;
     }
 
     public void printScreen() {
+        Console.Clear();
         for (int i = 0; i < displayHeight; i++) {
             for (int j = 0; j < displayWidth; j++) {
                 Console.Write(screen[i, j]);
@@ -30,11 +32,13 @@ public class OperatingSystem {
         }
     }
 
-    public OperatingSystem(int displayHeight, int displayWidth, int cursorRow, int cursorCol) {
-        this.displayHeight = displayHeight;
-        this.displayWidth = displayWidth;
-        this.cursorRow = cursorRow;
-        this.cursorCol = cursorCol;
+    public OperatingSystem(int _displayHeight, int _displayWidth, int _cursorRow, int _cursorCol) {
+        displayHeight = _displayHeight;
+        displayWidth = _displayWidth;
+        cursorRow = _cursorRow;
+        cursorCol = _cursorCol;
+        screen = new char[displayWidth, displayHeight];
+
 
         for (int i = 0; i < displayHeight; i++) {
             for (int j = 0; j < displayWidth; j++) {
