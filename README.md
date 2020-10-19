@@ -3,6 +3,11 @@ command line OS
 
 Organized by 1 class per file
 
+ConsoleKeyInfo cki = Console.ReadKey(true);
+switch(cki.Key)
+    case ConsoleKey.W;
+    case ConsoleKey.UpArrow
+    
 To Do:
 	get it so we can actually type things that change the state of the screen
 	parse the int for lower case letters, and digits 0-9, and space
